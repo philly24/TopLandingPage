@@ -42,3 +42,51 @@ body{
     font-family: 'Roboto', arial;
 }
 
+.about{
+    display: flex;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+    align-items: center;
+}
+
+.about-text{
+    flex-basis: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.about-text p {
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.about button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text-img img {
+    width: 600px;
+    height: 350px;
+}
