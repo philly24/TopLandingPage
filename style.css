@@ -1,0 +1,44 @@
+/* body affects the whole content and everything under the body html section */
+body{
+    background-color: #FFFFFF;
+    padding: 0;
+    margin:0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+/* .container established flexbox on every content that is going to usign flex box */
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* this is for styling the nav bar */
+.navbar{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+/* styling for image on navbar */
+.header-logo img{
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+/* postions the header links */
+.header-links{
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
+}
+/* styles the header links by accessing the a */
+.header-links a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+
