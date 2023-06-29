@@ -1,22 +1,23 @@
 /* body affects the whole content and everything under the body html section */
-body{
+body {
     background-color: #FFFFFF;
     padding: 0;
-    margin:0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'Roboto', arial;
 }
+
 /* .container established flexbox on every content that is going to usign flex box */
-.container{
+.container {
     display: flex;
     flex-direction: column;
 }
 
 /* this is for styling the nav bar */
-.navbar{
+.navbar {
     display: flex;
     color: #F9FAF8;
     background-color: #2a75bb;
@@ -25,25 +26,28 @@ body{
 }
 
 /* styling for image on navbar */
-.header-logo img{
+.header-logo img {
     width: 84px;
     height: 84px;
     margin-right: auto;
 }
+
 /* postions the header links */
-.header-links{
+.header-links {
     display: flex;
     margin-left: auto;
-    padding: 0px 100px 0px 0px;  
+    padding: 0px 100px 0px 0px;
 }
+
 /* styles the header links by accessing the a */
-.header-links a{
+.header-links a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
     padding: 10px;
     font-family: 'Roboto', arial;
 }
+
 /* this should be formulating the about portion  */
 .about {
     text-align: center;
@@ -51,11 +55,11 @@ body{
     margin: auto;
 }
 
-.about-text{
+.about-text {
     padding: 20px;
 }
 
-.about-text h1{
+.about-text h1 {
     font-size: 48px;
     font-weight: bold;
     margin: 0;
@@ -85,19 +89,88 @@ body{
 }
 
 /* content portions of html */
-.content{
+.content {
     align-items: center;
 }
 
-.content-info{
+.content-info {
     display: flex;
     justify-content: center;
 }
 
-.content-info img{
+.content-info img {
     width: 200px;
     height: 200px;
     border: 4px solid #2a75bb;
     border-radius: 15px;
     margin: 5px 20px 0px 20px;
+}
+
+/* this is the quote portion */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+
+.quote p {
+    font-size: 36px;
+    color: black;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: center;
+}
+
+/* sing up portion */
+
+.sign-up {
+    background-color: #2a75bb;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.sign-text {
+    text-align: center;
+}
+
+.signs-text p {
+    color: #fff;
+    text-align: center;
+}
+.sign-item{
+    flex: 1;
+}
+.sign-button button{
+    color: black;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #E5E7EB;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #2a75bb;
+    color: #fff;
+    font-family: 'Roboto', arial;
 }
